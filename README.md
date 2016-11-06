@@ -1,7 +1,7 @@
 Basic Docker Tomcat 8 Example 
 =====================================
-Tomcat8/Java Runtime/Java JDK included
-It compiles the application files into a .war at build time (with jar command) and deploys it to Tomcat 8
+Tomcat8/Java Runtime/Java JDK included   
+It compiles the files inside the application folder into a .war file at build time (with jar command) and deploys it to Tomcat 8
 
 ### Clone this project
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -20,7 +20,7 @@ $ docker run -it --rm -p 8888:8080 <username>/tomcat8:##
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 ### Access the sample application on this URL:
-http://<docker-host-ip>:8888/application
+http://\<docker-host\>:8888/application
 
 ### Pull changes if needed
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
