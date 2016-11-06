@@ -3,7 +3,6 @@
    <head>
       <meta http-equiv="refresh" content="1">
    </head>
-   <%@ page import="java.util.Date" %>
    <body>
       <H1>Test App</H1>
       <%= date = new java.util.Date() %>
