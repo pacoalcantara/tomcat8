@@ -9,7 +9,7 @@ COPY application /tmp/application
 RUN jar -cf /usr/local/tomcat/webapps/demo.war /tmp/application
 
 #Start Tomcat
-/usr/local/tomcat/bin/catalina.sh start
+RUN /usr/local/tomcat/bin/catalina.sh start
 
 #/usr/local/tomcat/bin/catalina.sh stop
 
