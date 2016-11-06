@@ -5,7 +5,6 @@
    </head>
    <body>
       <H1>Test App</H1>
-      <%= date = new java.util.Date() %>
-      <p>Greetings, this is the first version of our test app. The time is currently: <%= date %></p>
+      <p>Greetings, this is the first version of our test app. The time is currently: </p>
    </body>
 </html>
