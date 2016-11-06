@@ -5,7 +5,7 @@ FROM tomcat:8.0
 RUN apt-get update && apt-get install openjdk-7-jdk -y
 
 # Copy and Deploy .war :
-RUN /usr/local/tomcat/bin/catalina.sh stop
+#RUN /usr/local/tomcat/bin/catalina.sh stop
 COPY application /tmp/application
 # This step needs actual cd to folder to work
 RUN cd /tmp/application && jar -cf application.war *
