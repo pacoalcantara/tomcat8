@@ -5,6 +5,6 @@
    </head>
    <body>
       <H1>Test App</H1>
-      <p>Greetings, This is the first version of our test app .. This is a test: 000</p>
+      <p>Greetings, This is the first version of our test app .. THIS IS A CHANGE IN THE APPLICATION</p>
    </body>
 </html>
