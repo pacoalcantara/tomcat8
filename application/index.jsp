@@ -5,6 +5,6 @@
    </head>
    <body>
       <H1>Test App</H1>
-      <p>Greetings, this is the first version of our test app. The time is currently: </p>
+      <p>Greetings, this is the first version of our test app.</p>
    </body>
 </html>
